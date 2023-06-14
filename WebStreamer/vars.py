@@ -15,7 +15,7 @@ class Var(object):
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001813214601'))
     PORT = int(getenv('PORT', 445))
-    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '34.230.4.214'))
+    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '172.26.4.128'))
     OWNER_ID = int(getenv('OWNER_ID', '5152847809'))
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
